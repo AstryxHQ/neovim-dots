@@ -29,11 +29,11 @@ return {
     -- keymaps
     vim.keymap.set("n", "<Tab>",   "<cmd>BufferLineCycleNext<CR>", { desc = "Next buffer" })
     vim.keymap.set("n", "<S-Tab>", "<cmd>BufferLineCyclePrev<CR>", { desc = "Prev buffer" })
-    vim.keymap.set("n", "<leader>x", "<cmd>bdelete<CR>",           { desc = "Close buffer" })
-    vim.keymap.set("n", "<leader>1", "<cmd>BufferLineGoToBuffer 1<CR>")
-    vim.keymap.set("n", "<leader>2", "<cmd>BufferLineGoToBuffer 2<CR>")
-    vim.keymap.set("n", "<leader>3", "<cmd>BufferLineGoToBuffer 3<CR>")
-    vim.keymap.set("n", "<leader>4", "<cmd>BufferLineGoToBuffer 4<CR>")
-    vim.keymap.set("n", "<leader>5", "<cmd>BufferLineGoToBuffer 5<CR>")
+    vim.keymap.set("n", "<leader>bx", "<cmd>bdelete<CR>",           { desc = "Close buffer" })
+    vim.keymap.set("n", "<leader>b1", "<cmd>BufferLineGoToBuffer 1<CR>")
+    vim.keymap.set("n", "<leader>b2", "<cmd>BufferLineGoToBuffer 2<CR>")
+    vim.keymap.set("n", "<leader>b3", "<cmd>BufferLineGoToBuffer 3<CR>")
+    vim.keymap.set("n", "<leader>b4", "<cmd>BufferLineGoToBuffer 4<CR>")
+    vim.keymap.set("n", "<leader>b5", "<cmd>BufferLineGoToBuffer 5<CR>")
   end,
 }

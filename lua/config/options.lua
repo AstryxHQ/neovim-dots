@@ -2,7 +2,7 @@ local opt = vim.opt
 
 opt.number = true           -- line numbers
 opt.relativenumber = true   -- relative line numbers
-opt.tabstop = 2             -- 2-space tabs
+opt.tabstop = 4             -- 2-space tabs
 opt.shiftwidth = 2
 opt.expandtab = true        -- spaces instead of tabs
 opt.smartindent = true

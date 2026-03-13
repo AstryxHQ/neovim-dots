@@ -21,6 +21,5 @@ return {
         vim.keymap.set("n", "<A-g>", function()
             fterm.run('lazygit')
         end)
-        vim.keymap.set("t", "<A-g>", '<C-\\><C-n><CMD>lua require("FTerm").toggle()<CR>')
     end,
 }

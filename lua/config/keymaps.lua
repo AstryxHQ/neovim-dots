@@ -10,16 +10,14 @@ map("n", "<C-j>", "<C-w>j")
 map("n", "<C-k>", "<C-w>k")
 map("n", "<C-l>", "<C-w>l")
 
--- Clear search highlight
-map("n", "<leader>nh", ":nohl<CR>")
 
 -- Save and quit shortcuts
-map("n", "<leader>w", ":w<CR>")
-map("n", "<leader>q", ":q<CR>")
+map("n", "<leader>w", ":w<CR>", { desc = "Save File"})
+map("n", "<leader>qq", ":q<CR>", { desc = "Quit Buffer"})
+map("n", "<leader>qa", ":qa!<CR>", { desc = "Quit All"})
 
--- Move selected lines up/down in visual mode
-map("v", "J", ":m '>+1<CR>gv=gv")
 map("v", "K", ":m '<-2<CR>gv=gv")
+map("v", "J", ":m '>+1<CR>gv=gv") -- Move selected lines up/down in visual mode
 
 -- Better modes --
 map("i", "jk", "<Esc>")
